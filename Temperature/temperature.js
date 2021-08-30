@@ -15,6 +15,7 @@ const getTemperature = (item) =>{
     const weatherContainer = document.getElementById('weatherContainer');
     const div = document.createElement('div');
     div.classList.add('row');
+    weatherContainer.textContent = ''; 
     div.innerHTML = `
     <div class="col-lg-4 col-sm-12 mt-sm-4">     
         <div class="card cardColor" style="width: 16rem;">
