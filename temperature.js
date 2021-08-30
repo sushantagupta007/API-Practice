@@ -4,7 +4,7 @@ const getInfo = () =>{
 console.log(searchText)
     search_field.value = ''; 
 
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${searchText}&appid=a0b7f64e18db8b6cbe664914eeeab712`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${searchText}&appid=a0b7f64e18db8b6cbe664914eeeab712`;
     console.log(url);
     fetch(url)
         .then(res => res.json())
